@@ -15,7 +15,7 @@
 @implementation TwitterViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];\
+    [super viewDidLoad];
     
 }
 
