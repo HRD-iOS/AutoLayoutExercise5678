@@ -1,15 +1,13 @@
 //
-//  FirstViewController.h
+//  TwitterViewController.h
 //  AutoLayoutExercise5678
 //
-//  Created by Yin Kokpheng on 11/12/15.
+//  Created by Kokpheng on 11/15/15.
 //  Copyright © 2015 Yin Kokpheng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface TwitterViewController : UIViewController
 
 @end
-
