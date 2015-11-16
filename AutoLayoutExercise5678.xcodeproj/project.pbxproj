@@ -13,6 +13,9 @@
 		9A24BE1F1BF47CAA00D6212F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A24BE1D1BF47CAA00D6212F /* Main.storyboard */; };
 		9A24BE211BF47CAA00D6212F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A24BE201BF47CAA00D6212F /* Assets.xcassets */; };
 		9A24BE241BF47CAA00D6212F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A24BE221BF47CAA00D6212F /* LaunchScreen.storyboard */; };
+		9ABAA55C1BF978B200826903 /* like-action.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA5591BF978B200826903 /* like-action.png */; settings = {ASSET_TAGS = (); }; };
+		9ABAA55D1BF978B200826903 /* reply-action.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA55A1BF978B200826903 /* reply-action.png */; settings = {ASSET_TAGS = (); }; };
+		9ABAA55E1BF978B200826903 /* retweet-action.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA55B1BF978B200826903 /* retweet-action.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9A24BE201BF47CAA00D6212F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A24BE231BF47CAA00D6212F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A24BE251BF47CAA00D6212F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABAA5591BF978B200826903 /* like-action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-action.png"; sourceTree = "<group>"; };
+		9ABAA55A1BF978B200826903 /* reply-action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reply-action.png"; sourceTree = "<group>"; };
+		9ABAA55B1BF978B200826903 /* retweet-action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retweet-action.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		9A24BE101BF47CAA00D6212F /* AutoLayoutExercise5678 */ = {
 			isa = PBXGroup;
 			children = (
+				9ABAA5591BF978B200826903 /* like-action.png */,
+				9ABAA55A1BF978B200826903 /* reply-action.png */,
+				9ABAA55B1BF978B200826903 /* retweet-action.png */,
 				9A24BE141BF47CAA00D6212F /* AppDelegate.h */,
 				9A24BE151BF47CAA00D6212F /* AppDelegate.m */,
 				9A24BE1D1BF47CAA00D6212F /* Main.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABAA55E1BF978B200826903 /* retweet-action.png in Resources */,
 				9A24BE241BF47CAA00D6212F /* LaunchScreen.storyboard in Resources */,
 				9A24BE211BF47CAA00D6212F /* Assets.xcassets in Resources */,
+				9ABAA55D1BF978B200826903 /* reply-action.png in Resources */,
+				9ABAA55C1BF978B200826903 /* like-action.png in Resources */,
 				9A24BE1F1BF47CAA00D6212F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
